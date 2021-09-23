@@ -1,0 +1,26 @@
+/*
+ *    Project Name    : Visual Python
+ *    Description     : GUI-based Python code generator
+ *    File Name       : boardFrame.css
+ *    Author          : Black Logic
+ *    Note            : stylesheet for boardFrame.html
+ *    License         : GNU GPLv3 with Visual Python special exception
+ *    Date            : 2021. 09. 13
+ *    Change Date     :
+ */
+/* frame parts */
+.vp-board-frame {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    background: yellow;
+}
+.vp-board-header {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    text-align: right;
+    background-color: #FFFFFF;
+}

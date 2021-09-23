@@ -1,0 +1,39 @@
+/*
+ *    Project Name    : Visual Python
+ *    Description     : GUI-based Python code generator
+ *    File Name       : index.css
+ *    Author          : Black Logic
+ *    Note            : stylesheet for index.html
+ *    License         : GNU GPLv3 with Visual Python special exception
+ *    Date            : 2021. 09. 13
+ *    Change Date     :
+ */
+/* FIXME: remove it */
+.test-drawbox {
+    /* border: 1px solid gray; */
+}
+
+/* page default */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+body {
+    position: absolute;
+}
+#jupyterHead {
+    width: 100%;
+    height: 50px;
+}
+#jupyterBody {
+    width: 100%;
+    height: calc(100% - 50px);
+}
+#jupyterNotebook {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}

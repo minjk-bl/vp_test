@@ -1,0 +1,21 @@
+/*
+ *    Project Name    : Visual Python
+ *    Description     : GUI-based Python code generator
+ *    File Name       : root.css
+ *    Author          : Black Logic
+ *    Note            : stylesheet for initializing global style variables
+ *                      usage) background: var(--declared-variable-name);
+ *    License         : GNU GPLv3 with Visual Python special exception
+ *    Date            : 2021. 09. 13
+ *    Change Date     :
+ */
+:root {
+    --border-gray-color: #E4E4E4;
+    --grid-line-color: #E4E4E4;
+    --light-gray-color: #F5F5F5;
+    --highlight-color: #F6AD55;
+    --gray-color: #C4C4C4;
+    --font-hightlight: #F38504;
+    --font-primary: #696969;
+    --logo-url: url(../image/logo.png);
+}
